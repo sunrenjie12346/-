@@ -1,0 +1,9 @@
+<!--pages/kj/RandomSum/index.wxml-->
+<view class="box">
+  <view class='title'>随机产生一注7彩票号码</view>
+  <view>产生的随机彩票号码为：</view>
+  <view wx:for="{{rand}}">{{item}}</view>
+  <button type='primary' bindtap='newRand'>产生新的随机号码</button>
+</view>
+电科19-1-孙仁杰
+201923010123

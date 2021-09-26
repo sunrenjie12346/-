@@ -1,0 +1,13 @@
+<!--pages/kj/ForAndSum/index.wxml-->
+<view class='box'>
+  <view class='title'>复利计息计算器</view>
+  <view>
+    <input placeholder='本金' type='number' bindblur='startNum'></input>
+    <input placeholder='利率' type='number' bindblur='endNum'></input>
+  </view>
+  <view>五年后总资金：{{sum}} </view>
+  <button type='primary' bindtap='calc'>计算</button>
+</view>
+=====================================
+电科19-1-孙仁杰
+201923010123

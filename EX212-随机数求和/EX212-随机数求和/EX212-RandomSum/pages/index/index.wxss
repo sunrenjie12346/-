@@ -1,0 +1,6 @@
+/* pages/kj/RandomSum/index.wxss */
+.title{
+    color:blueviolet;
+    text-align: center;
+    font-size: 25px;
+}
